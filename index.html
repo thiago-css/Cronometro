@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Cronometro</title>
+  </head>
+  <body>
+    <section id="crono-area">
+      <h1 id="display">00:00:00</h1>
+      <section id="buttons">
+        <button id="play" onclick="play()">
+          <i class="fa-solid fa-circle-play"></i>
+        </button>
+        <button id="pause" onclick="pause()">
+          <i class="fa-solid fa-circle-pause"></i>
+        </button>
+        <button id="reset" onclick="reset()">
+          <i class="fa-solid fa-circle-stop"></i>
+        </button>
+      </section>
+    </section>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/f31196d528.js"
+    crossorigin="anonymous"
+  ></script>
+</html>
